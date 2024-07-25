@@ -1,3 +1,5 @@
+- Môi trường: php 8x, docker
+
 #step 1: build docker
 docker-compose up -d
 
@@ -12,6 +14,4 @@ docker-compose up -d
 - php artisan test
 
 
-
-
-#
+#URL: http://localhost:8080/api
