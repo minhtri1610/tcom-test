@@ -6,10 +6,10 @@ docker-compose up -d
 - composer install
 
 #step 3: 
-    - docker exec -it tcom_php /bin/bash
-    - php artisan migrate
-    - php artisan db:seed
-    - php artisan test
+- docker exec -it tcom_php /bin/bash
+- php artisan migrate
+- php artisan db:seed
+- php artisan test
 
 
 
